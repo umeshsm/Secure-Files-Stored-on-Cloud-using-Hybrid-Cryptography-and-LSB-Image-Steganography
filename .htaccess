@@ -1,0 +1,11 @@
+php_flag output_buffering on
+
+# HTID:13264811: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+Redirect 301 /securecloud100.000webhostapp.com https://securecloud100.000webhostapp.com
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:13264811:
+
+
+
+# HTID:13460655: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+Redirect 301 /securecloud1000.000webhostapp.com https://securecloud1000.000webhostapp.com
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:13460655:

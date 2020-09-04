@@ -1,0 +1,443 @@
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(60, 60, 60);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 20px;
+}
+
+.sidenav a {
+/*  padding: 20px 10px 10px 80px;*/
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+  margin-bottom: 20px;
+}
+
+.uname-btn{
+/*  padding: 20px 10px 10px 60px;*/
+  font-size: 20px;
+  color: orange;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: orange;
+}
+
+.sidenav .closebtn {
+  position: static;
+  top: 0;
+  right: 0;
+  font-size: 36px;
+  color: orange;
+}
+
+.sidenav .closebtn:hover {
+  color: #DD4124;
+}
+
+.menu-btn{
+  float: left;
+  margin-right: 100px;
+  font-size:30px;
+  cursor:pointer;
+  color: orange;
+}
+
+.menu-btn:hover {
+  color: #DD4124;
+}
+
+
+.profile_image{
+  width: 100px;
+  border-radius: 50%;
+}
+
+.btn.btn-green {
+    background: transparent;
+    border-color: mediumseagreen;
+    color: mediumseagreen; 
+    width: 90px;
+    height: 40px;
+    line-height:5px;
+}
+.btn.btn-green:hover {
+      background: mediumseagreen;
+      border-color: mediumseagreen;
+      color: #000; 
+}
+    
+.btn.btn-red {
+    background: transparent;
+    border-color: #DD4124;
+    color: #DD4124; 
+    width: 90px;
+    height: 40px;
+    line-height:5px;
+}
+.btn.btn-red:hover {
+      background: #DD4124;
+      border-color: #DD4124;
+      color: #000; 
+}
+
+.btn.btn-upload {
+    background: transparent;
+    border-color: mintcream;
+    color: mintcream; 
+    width: 320px;
+    height: 70px;
+    font-size:16px;
+}
+.btn.btn-red:upload {
+      background: mintcream;
+      border-color: mintcream;
+      color: #000; 
+}
+
+.btn.btn-enc {
+    background: transparent;
+    border-color: #32CD32;
+    color: #32CD32; 
+    width: 100px;
+    height: 50px;
+    line-height:10px;
+    font-size:15px;
+}
+.btn.btn-enc:hover {
+      background: #32CD32;
+      border-color: #32CD32;
+      color: #000; 
+}
+
+.btn.btn-dec{
+    background: transparent;
+    border-color: #E15D44;
+    color: #E15D44; 
+    width: 100px;
+    height: 50px;
+    line-height:10px;
+    font-size:15px;
+}
+.btn.btn-dec:hover {
+      background: #E15D44;
+      border-color: #E15D44;
+      color: #000; 
+}
+    
+.btn.btn-blue {
+    background: transparent;
+    border-color: skyblue;
+    color: skyblue; 
+    width: 90px;
+    height: 40px;
+    line-height:5px;
+    
+}
+.btn.btn-blue:hover {
+      background: skyblue;
+      border-color: skyblue;
+      color: #000; 
+}
+
+.btn.btn-long {
+    background: transparent;
+    border-color: pink;
+    color: pink; 
+    width: 320px;
+    height: 60px;
+    line-height:20px;
+    font-size:16px;
+}
+.btn.btn-long:hover {
+      background: pink;
+      border-color: pink;
+      color: #000; 
+}
+
+.btn.btn-long1 {
+    background: transparent;
+    border-color: #ADFF2F;
+    color: #ADFF2F; 
+    width: 240px;
+    height: 60px;
+    line-height:5px;
+    font-size:16px;
+}
+.btn.btn-long1:hover {
+      background: #ADFF2F;
+      border-color: #ADFF2F;
+      color: #000; 
+}
+
+.btn.btn-long2 {
+    background: transparent;
+    border-color: #48D1CC;
+    color: #48D1CC; 
+    width: 200px;
+    height: 60px;
+    line-height:5px;
+    font-size:16px;
+}
+.btn.btn-long2:hover {
+      background: #48D1CC;
+      border-color: #48D1CC;
+      color: #000; 
+}
+
+.btn.btn-stego {
+    background: transparent;
+    border-color: #7FCDCD;
+    color: #7FCDCD; 
+    width: 220px;
+    height: 60px;
+    font-size: 15px;
+}
+.btn.btn-stego:hover {
+      background: #7FCDCD;
+      border-color: #7FCDCD;
+      color: #000; 
+}
+    
+.btn.btn-brown {
+    background: transparent;
+    border-color: brown;
+    color: brown; 
+    width: 110px;
+    height: 40px;
+    line-height:5px;
+}
+.btn.btn-brown:hover {
+      background: brown;
+      border-color: brown;
+      color: #000; 
+}
+
+.btn.btn-forgot {
+    background: transparent;
+    border-color: #DD4124;
+    color: #DD4124; 
+    width: 180px;
+    height: 40px;
+    line-height:5px;
+}
+.btn.btn-forgot:hover {
+      background: #DD4124;
+      border-color: #DD4124;
+      color: #000; 
+}
+
+.btn.btn-send {
+    background: transparent;
+    border-color: #D65076;
+    color: #D65076; 
+    width: 180px;
+    height: 60px;
+    font-size: 16px;
+    line-height:5px;
+}
+.btn.btn-send:hover {
+      background:#D65076;
+      border-color: #D65076;
+      color: #000; 
+}
+    
+.btn.btn-tango {
+    background: transparent;
+    border-color: #E15D44;
+    color: #E15D44; 
+    width: 120px;
+    height: 60px;
+    line-height:5px;
+    font-size:18px;
+}
+.btn.btn-tango:hover {
+      background: #E15D44;
+      border-color: #E15D44;
+      color: #000; 
+}
+
+.btn.btn-download {
+    background: transparent;
+    border-color: #F96714;
+    color: #F96714; 
+    width: 140px;
+    height: 60px;
+    line-height:20px;
+    font-size:16px;
+}
+.btn.btn-download:hover {
+      background: #F96714;
+      border-color: #F96714;
+      color: #000; 
+}
+
+.btn.btn-skip {
+    background: transparent;
+    border-color: #FFD662;
+    color: #FFD662; 
+    width: 100px;
+    height: 60px;
+    font-size:16px;
+    line-height:20px;
+}
+.btn.btn-skip:hover {
+      background: #FFD662;
+      border-color: #FFD662;
+      color: #000; 
+}
+
+.btn.btn-decrypt {
+    background: transparent;
+    border-color: #45B8AC;
+    color: #45B8AC; 
+    width: 350px;
+    height: 60px;
+    font-size:15px;
+}
+.btn.btn-decrypt:hover {
+      background: #45B8AC;
+      border-color: #45B8AC;
+      color: #000; 
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+.container{
+    position:relative;
+    top:-120px;
+}
+
+.search-container {
+  position: relative;
+  top: 0;
+  left: 37%;
+  right: 0;
+  bottom: 0;
+  width: 300px;
+  height: 80px;
+}
+.search {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    background: crimson;
+    border-radius: 50%;
+    transition: all 0.5s;
+    z-index: 4;
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 25px 0 crimson;
+}
+    .search:hover {
+      cursor: pointer;
+    }
+    .search::before {
+      content: "";
+      position: absolute;
+      margin: auto;
+      top: 22px;
+      right: 0;
+      bottom: 0;
+      left: 22px;
+      width: 12px;
+      height: 2px;
+      background: white;
+      transform: rotate(45deg);
+      transition: all .5s;
+    }
+    .search::after {
+      content: "";
+      position: absolute;
+      margin: auto;
+      top: -5px;
+      right: 0;
+      bottom: 0;
+      left: -5px;
+      width: 25px;
+      height: 25px;
+      border-radius: 50%;
+      border: 2px solid white;
+      transition: all .5s;
+    }
+  
+  .search-input {
+    font-family: 'Inconsolata', monospace;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    background: crimson;
+    color: white;
+    text-shadow: 0 0 10px crimson;
+    padding: 0 80px 0 20px;
+    border-radius: 30px;
+    box-shadow: 0 0 25px 0 crimson,
+                0 20px 25px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 0 25px 0 rgba(0, 0, 0, 0.5);
+    transition: all 0.5s;
+    opacity: 0;
+    z-index: 5;
+    font-weight: bolder;
+    letter-spacing: 0.1em;
+  }
+    .search-input:hover {
+      cursor: pointer;
+    }
+    .search-input:focus {
+      width: 300px;
+      opacity: 1;
+      cursor: text;
+    }
+    .search-input:focus ~ .search {
+      right: -250px;
+      background: #151515;
+      z-index: 6;
+    }
+      .search-input::before {
+        top: 0;
+        left: 0;
+        width: 25px;
+      }
+      .search-input::after {
+        top: 0;
+        left: 0;
+        width: 25px;
+        height: 2px;
+        border: none;
+        background: white;
+        border-radius: 0%;
+        transform: rotate(-45deg);
+      }
+    
+    .search-input::placeholder {
+      color: white;
+      opacity: 0.5;
+      font-weight: bolder;
+    }
+
